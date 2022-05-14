@@ -14,7 +14,7 @@ public class DailyAdviceServer {
 
     public void go() {
         try {
-            ServerSocket serverSocket = new ServerSocket(4343);
+            ServerSocket serverSocket = new ServerSocket(4242);
             while(true) {
                 Socket socket = serverSocket.accept();
 
